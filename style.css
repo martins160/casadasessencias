@@ -31,7 +31,7 @@ body{
     background: #fff;
 }
 
-html{
+html, body{
 	height: 100%;
 }
 
