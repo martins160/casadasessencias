@@ -19,7 +19,7 @@ Text Domain: Matex
 
 *{
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;    
+    font-family: 'Open Sans', sans-serif; 
 }
 
 img{
@@ -27,10 +27,12 @@ img{
     max-width: 100%;
 }
 
-body{ 
-    margin: 0;
-    padding: 0;
+body{
     background: #fff;
+}
+
+html{
+	height: 100%;
 }
 
 .conteudo{
@@ -48,8 +50,11 @@ body{
 
 
 
-.header{
-    width: 100%;
+
+
+
+
+.header{    
     background: url(assets/images/temp/bg-header.jpg);
 }
 
@@ -189,7 +194,7 @@ body{
 
 
 .banner{
-    margin-top: 0px;
+    margin: 0 !important;
     position: relative;    
 }
 
@@ -204,7 +209,9 @@ body{
 
 
 
-
+.bloco01{
+    width: 100%;
+}
 
 
 
@@ -371,6 +378,7 @@ body{
     color: #333;  
     text-align: center;
 }
+
 
 
 
@@ -671,7 +679,7 @@ body{
 
 
     .icon-local{
-        font-size: 50px;
+        font-size: 70px;
         color: #333;
 
 
@@ -679,7 +687,7 @@ body{
 
 
     .icon-phone2{
-        font-size: 50px;
+        font-size: 70px;
         color: #51BD3E;  
         text-align: center;
     }
@@ -693,7 +701,7 @@ body{
 
 
     .icon-time{
-        font-size: 50px;
+        font-size: 70px;
         color: #333;  
         text-align: center;
     }
