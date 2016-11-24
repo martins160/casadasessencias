@@ -156,6 +156,7 @@
     .single-descricao p{
         font-weight: 400;
         color: #414141;
+        text-align: left;
     }
     
     .single-descricao .alignleft{
@@ -177,8 +178,74 @@
         border: 0;
         font-size: 16px;
     }
-   
-   
+    
+    
+    
+    
+    
+    
+
+    .single-descricao h1{
+        font-weight: 400;
+        color: #414141;
+        text-align: left;
+    }
+
+    .single-descricao h2{
+        font-weight: 400;
+        color: #414141;
+        text-align: left;
+    }
+
+    .single-descricao h3{
+        font-weight: 400;
+        color: #414141;
+        text-align: left;
+    }
+
+    .single-descricao h4{
+        font-weight: 400;
+        color: #414141;
+        text-align: left;
+    }
+
+    .single-descricao h5{
+        font-weight: 400;
+        color: #414141;
+        text-align: left;
+    }
+
+    .single-descricao h6{
+        font-weight: 400;
+        color: #414141;
+        text-align: left;
+    }
+
+    .single-descricao .alignleft{
+        margin: 10px 15px 10px 0;
+    }
+
+      .single-descricao .alignright{
+        margin: 10px 0 10px 15px;
+    }
+
+
+    .single-descricao blockquote{
+        text-align: center;
+        padding: 15px;
+        widows: 100%;
+        background: #c1b2f8;
+        color: #1E0C65;
+        font-weight: 800;
+        border: 0;
+        font-size: 16px;
+    }
+
+    .single-descricao li{    
+        text-align: left;
+    }
+
+
     
     
     
