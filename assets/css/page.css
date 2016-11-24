@@ -1,0 +1,84 @@
+.page-content{
+    border: 2px solid #eaeaea;
+    padding: 20px 0;
+}
+
+
+
+
+/**********************************************************************************************************************************************/
+@media(min-width:768px){
+    
+      
+    
+}
+    
+
+
+
+
+/*******************************************************************************************************************************************/
+@media(min-width:1024px){ 
+
+
+    .page{
+        padding: 40px 0;       
+    }
+    
+    .page-content{
+        border: 2px solid #eaeaea;
+        padding: 20px;
+    }
+    
+    .page p{
+        font-size: 18px;
+        font-weight: 300;
+        color: #5c5c5c;
+    }
+    
+    
+    
+    
+    .page-titu{
+        font-weight: 800;
+        text-align: center;
+        background: #1E0C65;
+        color: #fff;
+        padding: 10px;
+        font-size: 25px;
+        width: 30%;
+        margin: 0 auto 30px auto;
+    }
+
+    
+    
+    .single-descricao p{
+        font-weight: 400;
+        color: #414141;
+    }
+    
+    .single-descricao .alignleft{
+        margin: 10px 15px 10px 0;
+    }
+    
+      .single-descricao .alignright{
+        margin: 10px 0 10px 15px;
+    }
+   
+    
+    .single-descricao blockquote{
+        text-align: center;
+        padding: 15px;
+        widows: 100%;
+        background: #c1b2f8;
+        color: #1E0C65;
+        font-weight: 800;
+        border: 0;
+        font-size: 16px;
+    }
+   
+   
+    
+    
+    
+}

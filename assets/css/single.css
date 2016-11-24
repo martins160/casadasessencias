@@ -1,0 +1,185 @@
+.single-content{
+    border: 2px solid #eaeaea;
+    padding: 20px 0;
+}
+
+.single-image img{
+    margin: 10px auto;
+}
+
+.single-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-tit{
+    font-weight: 800;
+    text-align: center;
+    background: #1E0C65;
+    color: #fff;
+    padding: 10px;
+    font-size: 22px;
+    width: 100%;
+    float: left;
+}
+
+.single-descricao{
+    margin: 20px 0 0 0;
+    float: left;
+}   
+
+
+.single-descricao p{
+    font-weight: 400;
+    color: #414141;
+    text-align: center;
+}
+
+.single-descricao h1{
+    font-weight: 400;
+    color: #414141;
+    text-align: center;
+}
+
+.single-descricao h2{
+    font-weight: 400;
+    color: #414141;
+    text-align: center;
+}
+
+.single-descricao h3{
+    font-weight: 400;
+    color: #414141;
+    text-align: center;
+}
+
+.single-descricao h4{
+    font-weight: 400;
+    color: #414141;
+    text-align: center;
+}
+
+.single-descricao h5{
+    font-weight: 400;
+    color: #414141;
+    text-align: center;
+}
+
+.single-descricao h6{
+    font-weight: 400;
+    color: #414141;
+    text-align: center;
+}
+
+.single-descricao .alignleft{
+    margin: 10px 15px 10px 0;
+}
+
+  .single-descricao .alignright{
+    margin: 10px 0 10px 15px;
+}
+
+
+.single-descricao blockquote{
+    text-align: center;
+    padding: 15px;
+    widows: 100%;
+    background: #c1b2f8;
+    color: #1E0C65;
+    font-weight: 800;
+    border: 0;
+    font-size: 16px;
+}
+
+.single-descricao li{    
+    text-align: center;
+}
+
+
+
+/**********************************************************************************************************************************************/
+@media(min-width:768px){
+    
+      .single-descricao blockquote{
+        
+        background: #ddd;
+        
+    }
+    
+}
+    
+
+
+
+
+/*******************************************************************************************************************************************/
+@media(min-width:1024px){ 
+
+
+    .single{
+        padding: 40px 0;       
+    }
+    
+    .single-content{
+         border: 2px solid #eaeaea;
+        padding: 20px;
+    }
+    
+    .single-image img{
+        margin: 10px auto;
+    }
+    
+    .single-image{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .single-tit{
+        font-weight: 800;
+        text-align: center;
+        background: #1E0C65;
+        color: #fff;
+        padding: 10px;
+        font-size: 25px;
+        width: 100%;
+        float: left;
+    }
+
+    .single-descricao{
+        margin: 20px 0 0 0;
+        float: left;
+    }   
+    
+    
+    .single-descricao p{
+        font-weight: 400;
+        color: #414141;
+    }
+    
+    .single-descricao .alignleft{
+        margin: 10px 15px 10px 0;
+    }
+    
+      .single-descricao .alignright{
+        margin: 10px 0 10px 15px;
+    }
+   
+    
+    .single-descricao blockquote{
+        text-align: center;
+        padding: 15px;
+        widows: 100%;
+        background: #c1b2f8;
+        color: #1E0C65;
+        font-weight: 800;
+        border: 0;
+        font-size: 16px;
+    }
+   
+   
+    
+    
+    
+}
