@@ -13,6 +13,10 @@ Text Domain: casadasessenciasuberlandia
 
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800';
 @import 'assets/fontastic/styles.css';
+@import 'assets/css/category.css';
+@import 'assets/css/single.css';
+@import 'assets/css/page.css';
+@import 'assets/css/404.css';
 
 
 
@@ -515,6 +519,80 @@ html, body{
 
 
 
+.footer a{
+        font-weight: 800;
+        color: #fff;
+        font-size: 13px;        
+        padding: 0 5px;
+        transition: all 0.4s; 
+    }
+    
+    .footer a:hover{
+        text-decoration: none;  
+        padding: 0 5px;
+        transition: all 0.4s; 
+    }
+    
+    .footer .f-home:hover{
+        background: #fff;
+        color: #1E0C65;
+        transition: all 0.4s; 
+    }
+    
+    .footer .f-quem:hover{
+        background: #1fd148;
+        color: #fff;
+        transition: all 0.4s; 
+    }
+    
+    .footer .f-tube:hover{
+        background: #e5141c;
+        color: #fff;
+        transition: all 0.4s; 
+    }
+    
+    .footer .f-face:hover{
+         background: #1e13a5;
+        color: #fff;
+        transition: all 0.4s; 
+    }
+    
+    .footer .f-insta:hover{
+        background: #5c4343;
+        color: #fff;
+        transition: all 0.4s; 
+    }
+    
+    .footer .f-mail:hover{
+        background: #e4eb27;
+        color: #1E0C65;
+        transition: all 0.4s; 
+    }
+
+    .footer-flex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        
+        margin: 20px 0;
+    }
+
+
+
+
+
+
+    .page-404{
+        text-align: center;
+        font-weight: 300;
+        font-size: 20px;
+        margin: 20px 0;
+        color: #555555;
+    }
+
+
 
 
 
@@ -524,13 +602,12 @@ html, body{
 .backtopo{ 
     width:50px; 
     height:50px; 
-    background:url(assets/images/icon_back.png) no-repeat; 
+    background:url(assets/images/icon_back.png) no-repeat;     
     cursor:pointer; 
     position:fixed;
     z-index:1000; 
     bottom:20px; 
-    right:10px; 
-    display:none;
+    right:20px;
 }
 .backtopo:hover{ 
     /*background:url(assets/images/icon_back2.png) no-repeat;*/
@@ -674,7 +751,7 @@ html, body{
     }
 
     .contato{        
-        padding: 40px 0;
+        padding: 60px 0;
     }
     
     
@@ -826,10 +903,76 @@ html, body{
     }
 
 
+    .footer a{
+        font-weight: 800;
+        color: #fff;
+        font-size: 13px;        
+        padding: 0 5px;
+        transition: all 0.4s; 
+    }
+    
+    .footer a:hover{
+        text-decoration: none;  
+        padding: 0 5px;
+        transition: all 0.4s; 
+    }
+    
+    .footer .f-home:hover{
+        background: #fff;
+        color: #1E0C65;
+        transition: all 0.4s; 
+    }
+    
+    .footer .f-quem:hover{
+        background: #1fd148;
+        color: #fff;
+        transition: all 0.4s; 
+    }
+    
+    .footer .f-tube:hover{
+        background: #e5141c;
+        color: #fff;
+        transition: all 0.4s; 
+    }
+    
+    .footer .f-face:hover{
+         background: #1e13a5;
+        color: #fff;
+        transition: all 0.4s; 
+    }
+    
+    .footer .f-insta:hover{
+        background: #5c4343;
+        color: #fff;
+        transition: all 0.4s; 
+    }
+    
+    .footer .f-mail:hover{
+        background: #e4eb27;
+        color: #1E0C65;
+        transition: all 0.4s; 
+    }
 
-
-
-
+    .footer-flex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        
+        margin: 20px 0;
+    }
+    
+    
+    .page-404{
+        text-align: center;
+        font-weight: 300;
+        font-size: 50px;
+        margin: 20px 0;
+        color: #555555;
+    }
+    
+    
 
    
    
