@@ -244,6 +244,19 @@
     .single-descricao li{    
         text-align: left;
     }
+    
+    
+    .valor{
+        background: #c1b2f8;
+        color: #fff;
+        padding: 20px;
+        float: left;
+        font-size: 20px;        
+    }
+    
+    .valor strong{
+        color: #1E0C65;
+    }
 
 
     
